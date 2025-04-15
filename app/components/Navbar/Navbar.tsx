@@ -15,7 +15,7 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'Home', href: '#/', current: true },
-    { name: 'Courses', href: '#courses', current: false },
+    { name: 'Labs', href: '#courses', current: false },
     { name: 'Mentor', href: '#mentor', current: false },
     { name: 'Testimonial', href: '#testimonial', current: false },
     { name: 'Contact', href: '#contact', current: false },
@@ -58,17 +58,16 @@ const Navbar = () => {
                             {/* LOGO */}
 
                             <div className="flex flex-shrink-0 items-center">
-                                {/* <img
-                                    className="block h-12 w-40 lg:hidden"
-                                    src={'/assets/logo/logo.svg'}
+                                <img
+                                    className="block w-40 lg:hidden"
+                                    src={'/assets/logo/logo.jpeg'}
                                     alt="dsign-logo"
                                 />
                                 <img
-                                    className="hidden h-full w-full lg:block"
-                                    src={'/assets/logo/logo.svg'}
+                                    className="hidden w-24 lg:block"
+                                    src={'/assets/logo/logo.jpeg'}
                                     alt="dsign-logo"
-                                /> */}
-                                Inspire IQ Lab
+                                />
                             </div>
 
                             {/* LINKS */}
