@@ -56,7 +56,9 @@ const Register = () => {
                                             <div>
                                                 <Image
                                                     className="mx-auto h-12 w-auto"
-                                                    src="/assets/logo/logo.svg"
+                                                    src="/assets/logo/logo.png"
+                                                    width={0}
+                                                    height={48}
                                                     alt="Your Company"
                                                 />
                                                 <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
