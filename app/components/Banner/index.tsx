@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Carrousels from './Carrousels';
 
 const Banner = () => {
 
@@ -46,7 +47,8 @@ const Banner = () => {
                     </div>
 
                     <div className='col-span-6 flex justify-center'>
-                        <Image src="/assets/banner/banner1.jpeg" alt="nothing" className='rounded-lg'  width={1000} height={805} />
+                        <Carrousels/>
+                        {/* <Image src="/assets/banner/banner1.jpeg" alt="nothing" className='rounded-lg'  width={1000} height={805} /> */}
                     </div>
                 </div>
             </div>
