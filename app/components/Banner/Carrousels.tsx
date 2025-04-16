@@ -21,8 +21,6 @@ const Carrousels = () => {
         disableOnInteraction: false,
       }}
       pagination = {{ clickable: true }}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide>
         <Image src="/assets/banner/banner1.jpeg" alt="nothing" className='rounded-lg object-cover' fill />

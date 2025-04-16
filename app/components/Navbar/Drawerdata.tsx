@@ -9,11 +9,12 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
   { name: 'Home', href: '/', current: true },
-  { name: 'Courses', href: '#courses', current: false },
-  { name: 'Mentor', href: '#mentor', current: false },
-  { name: 'Group', href: '#/', current: false },
-  { name: 'Testimonial', href: '#testimonial', current: false },
-]
+  { name: 'About Us', href: '/about-us', current: false },
+  { name: 'Programs', href: '/programs', current: false },
+  // { name: 'Why InspireIQ', href: '/why-inspireiq', current: false },
+  { name: 'Our Vision', href: '/our-vision', current: false },
+  { name: 'Contact Us', href: '/contact-us', current: false },
+];
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
@@ -39,12 +40,6 @@ const Data = () => {
               </Link>
             ))}
             <div className="mt-4"></div>
-            <button className="bg-white w-full text-Blueviolet border border-semiblueviolet font-medium py-2 px-4 rounded">
-              Log In
-            </button>
-            <button className="bg-semiblueviolet w-full hover:bg-Blueviolet hover:text-white text-Blueviolet font-medium my-2 py-2 px-4 rounded">
-              Sign up
-            </button>
           </div>
         </div>
       </div>

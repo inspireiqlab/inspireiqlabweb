@@ -1,9 +1,7 @@
 import Banner from './components/Banner/index';
-import Courses from './components/Courses/index';
-import Mentor from './components/Mentor/index';
-import Testimonials from './components/Testimonials/index';
-import Newsletter from './components/Newsletter/Newsletter';
 import AboutUs from './components/AboutUs';
+import CTA from './components/CTA';
+import Mentor from './components/Mentor';
 
 
 export default function Home() {
@@ -12,10 +10,8 @@ export default function Home() {
       <Banner />
       {/* <Companies /> */}
       <AboutUs/>
-      <Courses />
-      <Mentor />
-      <Testimonials />
-      <Newsletter />
+      <Mentor/>
+      <CTA/>
     </main>
   )
 }

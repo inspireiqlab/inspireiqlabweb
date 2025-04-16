@@ -4,8 +4,6 @@ import React, { useState } from 'react';
 import { Bars3Icon } from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
-import Signdialog from "./Signdialog";
-import Registerdialog from "./Registerdialog";
 import Image from 'next/image';
 
 interface NavigationItem {
@@ -14,12 +12,20 @@ interface NavigationItem {
     current: boolean;
 }
 
+// - Home
+// - About Us
+// - Programs
+// - Why InspireIQ
+// - Our Vision
+// - Contact Us
+
 const navigation: NavigationItem[] = [
-    { name: 'Home', href: '#/', current: true },
-    { name: 'Labs', href: '#courses', current: false },
-    { name: 'Mentor', href: '#mentor', current: false },
-    { name: 'Testimonial', href: '#testimonial', current: false },
-    { name: 'Contact', href: '#contact', current: false },
+    { name: 'Home', href: '/', current: true },
+    { name: 'About Us', href: '/about-us', current: false },
+    { name: 'Programs', href: '/programs', current: false },
+    // { name: 'Why InspireIQ', href: '/why-inspireiq', current: false },
+    { name: 'Our Vision', href: '/our-vision', current: false },
+    { name: 'Contact Us', href: '/contact-us', current: false },
 ];
 
 function classNames(...classes: string[]) {
@@ -60,6 +66,7 @@ const Navbar = () => {
 
                             <div className="flex flex-shrink-0 items-center">
                                 <Image
+                                    id="hello"
                                     className="block w-24 lg:hidden"
                                     src={'/assets/logo/logo.png'}
                                     alt="dsign-logo"
@@ -88,7 +95,7 @@ const Navbar = () => {
                                             <span
                                                 className={classNames(
                                                     item.href === currentLink ? 'underline-links' : 'text-slategray',
-                                                    'px-3 py-4 text-lg font-normal opacity-75 hover:opacity-100'
+                                                    'px-3 py-4 text-lg font-normal opacity-75 hover:opacity-100 flex text-center'
                                                 )}
                                                 aria-current={item.href ? 'page' : undefined}
                                             >
@@ -100,18 +107,9 @@ const Navbar = () => {
                             </div>
                         </div>
 
-                        {/* SIGNIN DIALOG */}
-
-                        {/* <Signdialog /> */}
-
-
-                        {/* REGISTER DIALOG */}
-
-                        {/* <Registerdialog /> */}
-
                         {/* CTA Button Enroll Now */}
-                        <button className="text-Blueviolet text-lg font-medium ml-9 py-5 px-16 transition duration-150 ease-in-out rounded-full bg-semiblueviolet hover:text-white hover:bg-Blueviolet">
-                            Enroll Now
+                        <button className="hidden lg:block text-Blueviolet text-lg font-medium ml-9 py-5 px-16 transition duration-150 ease-in-out rounded-full bg-semiblueviolet hover:text-white hover:bg-Blueviolet">
+                            Pre-Enroll Now
                         </button>
 
 

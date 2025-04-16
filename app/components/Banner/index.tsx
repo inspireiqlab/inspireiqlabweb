@@ -4,23 +4,22 @@ import Carrousels from './Carrousels';
 const Banner = () => {
 
     return (
-        <div id="home-section" className='bg-lightkblue'>
-            <div className="mx-auto max-w-7xl pt-20 sm:pb-24 px-6">
+        <section id="home-section" className='bg-lightkblue'>
+            <div className="mx-auto max-w-7xl pt-6 lg:pt-20 sm:pb-24 px-6">
 
                 <div className='grid gap-4 grid-cols-1 lg:grid-cols-12 space-x-1'>
 
                     <div className='col-span-6 flex flex-col justify-evenly gap-4'>
-                        <div className='flex gap-2 mx-auto lg:mx-0'>
-                            <Image src="/assets/banner/check.svg" alt="check-image" width={20} height={20} />
-                            <h3 className='text-kellygreen text-sm font-semibold text-center lg:text-start'>Get 30% off on first enroll</h3>
-                        </div>
                         <h1 className='text-midnightblue text-4xl sm:text-5xl font-semibold text-center lg:text-start lh-120 pt-5 lg:pt-0'>Igniting Young Minds Through Playful STEM, Robotics & AI Learning</h1>
                         <h3 className='text-charcoal text-lg font-normal text-center lg:text-start opacity-75 pt-5 lg:pt-0'>Where Curiosity Grows into Creation—Inspiring Tomorrow&apos;s Innovators Today</h3>
                             
                         {/* Enroll Now Button CTA Button  */}
-                        <button type="submit" className="w-48 p-3 lg:p-5 focus:outline-none focus:shadow-outline bg-Blueviolet hover:bg-midnightblue duration-150 ease-in-out rounded-full">
-                            <h1 className='text-xl text-white'>Enroll Now</h1>
+                        <button type="submit" className="p-3 lg:p-5 focus:outline-none focus:shadow-outline bg-Blueviolet hover:bg-midnightblue duration-150 ease-in-out rounded-full">
+                            <h1 className='text-base text-white'>Share Your Thoughts & Pre-Enroll</h1>
                         </button>
+                        <div className='flex justify-center gap-2 mx-auto lg:mx-0'>
+                            <h3 className='text-slategray text-sm font-semibold text-center lg:text-start'>🚀 Lab Opening in August 2025</h3>
+                        </div>
 
                         <div className='flex items-center justify-between pt-10 lg:pt-4'>
                             <div className='flex gap-2'>
@@ -38,12 +37,12 @@ const Banner = () => {
                         </div>
                     </div>
 
-                    <div className='col-span-6 flex justify-center'>
+                    <div className='h-[260px] md:h-[400px] col-span-6 flex justify-center mb-6'>
                         <Carrousels/>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
