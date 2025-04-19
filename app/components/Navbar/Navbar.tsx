@@ -80,7 +80,18 @@ const Navbar = () => {
                                     width={96}
                                     height={0}
                                 />
+                                <div className='ml-20 md:ml-4'>
+                                    <Image
+                                        id="hello"
+                                        className="block w-32"
+                                        src={'/assets/logo/logo-text.png'}
+                                        alt="dsign-logo"
+                                        width={128}
+                                        height={0}
+                                    />
+                                </div>
                             </div>
+
 
                             {/* LINKS */}
 
@@ -124,7 +135,7 @@ const Navbar = () => {
                         {/* DRAWER LINKS DATA */}
 
                         <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
-                            <Drawerdata />
+                            <Drawerdata handleLinkClick={handleLinkClick} />
                         </Drawer>
 
 

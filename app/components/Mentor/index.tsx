@@ -15,32 +15,17 @@ const postData: DataType[] = [
     {
         profession: 'Senior UX Designer',
         name: 'Shoo Thar Mien',
-        imgSrc: '/assets/mentor/user3.png',
+        imgSrc: '/assets/mentor/mentor1.webp',
     },
     {
         profession: 'Senior UX Designer',
         name: 'Shoo Thar Mien',
-        imgSrc: '/assets/mentor/user2.png',
+        imgSrc: '/assets/mentor/mentor2.webp',
     },
     {
-        profession: 'Senior UX Designer',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/assets/mentor/user1.png',
-    },
-    {
-        profession: 'Senior UX Designer',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/assets/mentor/user3.png',
-    },
-    {
-        profession: 'Senior UX Designer',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/assets/mentor/user2.png',
-    },
-    {
-        profession: 'Senior UX Designer',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/assets/mentor/user1.png',
+        profession: 'Machine Learning Engineer',
+        name: 'Somtirtha Mukhopadhyay',
+        imgSrc: '/assets/mentor/mentor3.webp',
     },
 ]
 
@@ -128,13 +113,15 @@ export default class MultipleItems extends Component {
                         {postData.map((items, i) => (
                             <div key={i}>
                                 <div className='m-3 py-14 md:my-10 text-center'>
-                                    <div className="relative">
+                                    <div className="relative flex flex-col justify-center items-center">
+                                        <div className="border-8 border-white w-48 h-48 rounded-full overflow-hidden">
                                         <Image src={items.imgSrc} alt="user-image" width={306} height={0} className="inline-block m-auto" />
-                                        <div className="absolute right-[84px] bottom-[102px] bg-white rounded-full p-4">
+                                        </div>
+                                        <div className="relative w-14 h-14 left-[60px] bottom-[60px] bg-white rounded-full p-4">
                                             <Image src={'/assets/mentor/linkedin.svg'} alt="linkedin-image" width={25} height={24} />
                                         </div>
                                     </div>
-                                    <div className="-mt-10">
+                                    <div className="mt-10">
                                         <h3 className='text-2xl font-semibold text-lightblack'>{items.name}</h3>
                                         <h4 className='text-lg font-normal text-lightblack pt-2 opacity-50'>{items.profession}</h4>
                                     </div>

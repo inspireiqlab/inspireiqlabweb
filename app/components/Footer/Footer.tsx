@@ -98,7 +98,7 @@ const footer = () => {
                 <div className="flex gap-5 mt-5 md:mt-0 justify-center md:justify-start">
                     <h4 className='text-dark-red opacity-75 text-sm font-normal'>Email: <Link href="mailto:inspireiqlab@gmail.com" target="_blank">inspireiqlab@gmail.com</Link></h4>
                     <div className="h-5 bg-dark-red opacity-25 w-0.5"></div>
-                    <h4 className='text-dark-red opacity-75 text-sm font-normal'>WhatsApp: <Link href="https://wa.me/918420273030" target="_blank">+91-8420273030</Link></h4>
+                    <h4 className='text-dark-red opacity-75 text-sm font-normal'>WhatsApp: <Link href="https://wa.me/919051155395" target="_blank">+91-9051155395</Link></h4>
                 </div>
             </div>
         </div>
