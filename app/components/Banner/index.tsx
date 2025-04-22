@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Carrousels from './Carrousels';
 import './banner.css';
+import Link from 'next/link';
 
 const Banner = () => {
 
@@ -16,9 +17,9 @@ const Banner = () => {
                             
                         {/* Enroll Now Button CTA Button  */}
                         <div className='flex items-center justify-center'>
-                        <button type="submit" className="p-3 lg:p-5 focus:outline-none focus:shadow-outline bg-Blueviolet hover:bg-midnightblue duration-150 ease-in-out rounded-full w-full lg:w-[400px]">
+                        <Link href="https://forms.gle/apgu9Az9R23LTRnf7" target='_blank' className="text-center p-3 lg:p-5 focus:outline-none focus:shadow-outline bg-Blueviolet hover:bg-midnightblue duration-150 ease-in-out rounded-full w-full lg:w-[400px]">
                             <h1 className='text-base text-white'>Share Your Thoughts & Pre-Enroll</h1>
-                        </button>
+                        </Link>
                         </div>
                         <div className='flex justify-center gap-2 mx-auto lg:mx-0'>
                             {/* <h3 className='text-slategray text-sm font-semibold text-center lg:text-start'>🚀 Lab Opening in August 2025</h3> */}
