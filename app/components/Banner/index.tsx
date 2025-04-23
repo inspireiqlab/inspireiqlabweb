@@ -1,7 +1,9 @@
+'use client';
 import Image from 'next/image';
 import Carrousels from './Carrousels';
 import './banner.css';
 import Link from 'next/link';
+import Typewriter from 'typewriter-effect';
 
 const Banner = () => {
 
@@ -12,7 +14,19 @@ const Banner = () => {
                 <div className='grid gap-4 grid-cols-1 lg:grid-cols-12 space-x-1'>
 
                     <div className='col-span-6 flex flex-col justify-evenly gap-4'>
-                        <h1 className='text-midnightblue text-4xl sm:text-5xl font-semibold text-center lg:text-start lh-120 pt-5 lg:pt-0'>Igniting Young Minds Through Playful STEM, Robotics & AI Learning</h1>
+                        <h1 className='text-midnightblue text-4xl sm:text-5xl font-semibold text-center lg:text-start lh-120 pt-5 lg:pt-0'>
+                            Igniting Young Minds Through &nbsp;
+                            <span className='block md:inline'></span>
+                            <span className='inline-block bg-gradient-to-r from-[#3d5fcb] via-[#3dcb7f] to-[#3da0cb] text-transparent bg-clip-text'>
+                                <Typewriter
+                                    options={{
+                                        strings: ['Playful STEM', 'Robotics', 'AI Learning'],
+                                        autoStart: true,
+                                        loop: true,
+                                    }}
+                                />
+                            </span> 
+                        </h1>
                         <h3 className='text-charcoal text-lg font-normal text-center lg:text-start opacity-75 pt-5 lg:pt-0'>Where Curiosity Grows into Creation—Inspiring Tomorrow&apos;s Innovators Today</h3>
                             
                         {/* Enroll Now Button CTA Button  */}

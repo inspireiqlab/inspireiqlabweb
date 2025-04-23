@@ -80,7 +80,7 @@ const Navbar = () => {
                                     width={96}
                                     height={0}
                                 />
-                                <div className='ml-20 md:ml-4'>
+                                <div className='ml-6 md:block md:ml-4'>
                                     <Image
                                         id="hello"
                                         className="block w-32"
@@ -91,7 +91,6 @@ const Navbar = () => {
                                     />
                                 </div>
                             </div>
-
 
                             {/* LINKS */}
 

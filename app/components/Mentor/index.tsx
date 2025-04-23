@@ -13,19 +13,19 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        profession: 'Senior UX Designer',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/assets/mentor/mentor1.webp',
-    },
-    {
-        profession: 'Senior UX Designer',
-        name: 'Shoo Thar Mien',
+        profession: 'Machine Learning Expert (PhD from IIT Dhanbad)',
+        name: 'Dr. Sourav Basak',
         imgSrc: '/assets/mentor/mentor2.webp',
     },
     {
-        profession: 'Machine Learning Engineer',
+        profession: 'Machine Learning Engineer (ME from Jadavpur University)',
         name: 'Somtirtha Mukhopadhyay',
         imgSrc: '/assets/mentor/mentor3.webp',
+    },
+    {
+        profession: 'Coding Instructor (Tata Medical IT Specialist)',
+        name: 'Pokhraj Dey',
+        imgSrc: '/assets/mentor/user.png',
     },
 ]
 

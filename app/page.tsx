@@ -3,6 +3,7 @@ import AboutUs from './components/AboutUs';
 import CTA from './components/CTA';
 import Mentor from './components/Mentor';
 import DownMotion from './components/MotionWrapper/DownMotion';
+import FAQSection from './components/FAQ';
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <AboutUs/>
       <Mentor/>
       <CTA/>
+      <FAQSection/>
     </main>
   )
 }
