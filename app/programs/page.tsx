@@ -9,7 +9,7 @@ const ProgramsPage = () => {
         {/* Early Learners */}
         <div className="grid grid-cols-1 md:grid-cols-2 overflow-hidden border border-green-200 rounded-2xl shadow-md hover:shadow-lg transition duration-300">
           <div className="p-6">
-            <h2 className="text-2xl font-semibold text-green-700 mb-2">🧒 Early Learners (Ages 3–6)</h2>
+            <h2 className="text-2xl font-semibold text-green-700 mb-2"> Little Explorers (Ages 3–6)</h2>
             <p className="text-gray-700 mb-4">
               <strong>Objective:</strong> Develop curiosity, problem-solving skills, and basic computational thinking.
             </p>
@@ -32,7 +32,7 @@ const ProgramsPage = () => {
         {/* Junior Level */}
         <div className="grid grid-cols-1 md:grid-cols-2 overflow-hidden border border-green-200 rounded-2xl shadow-md hover:shadow-lg transition duration-300">
           <div className="p-6">
-            <h2 className="text-2xl font-semibold text-green-700 mb-2">🧒 Junior Level (Ages 7–10)</h2>
+            <h2 className="text-2xl font-semibold text-green-700 mb-2">Bright Builders (Ages 7–10)</h2>
             <p className="text-gray-700 mb-4">
               <strong>Objective:</strong> Build logical thinking, introduce hands-on robotics, and develop basic programming skills.
             </p>
@@ -55,7 +55,7 @@ const ProgramsPage = () => {
         {/* Middle Level */}
         <div className="grid grid-cols-1 md:grid-cols-2 overflow-hidden border border-green-200 rounded-2xl shadow-md hover:shadow-lg transition duration-300">
           <div className="p-6">
-            <h2 className="text-2xl font-semibold text-green-700 mb-2">🧒 Middle Level (Ages 11–13)</h2>
+            <h2 className="text-2xl font-semibold text-green-700 mb-2">Curious Innovators (Ages 11–13)</h2>
             <p className="text-gray-700 mb-4">
               <strong>Objective:</strong> Apply programming, build intelligent robots, and introduce AI concepts.
             </p>
@@ -79,7 +79,7 @@ const ProgramsPage = () => {
         {/* Advanced Level */}
         <div className="grid grid-cols-1 md:grid-cols-2 overflow-hidden border border-green-200 rounded-2xl shadow-md hover:shadow-lg transition duration-300">
           <div className="p-6">
-            <h2 className="text-2xl font-semibold text-green-700 mb-2">🧒 Advanced Level (Ages 14–18)</h2>
+            <h2 className="text-2xl font-semibold text-green-700 mb-2">Future Pioneers (Ages 14–18)</h2>
             <p className="text-gray-700 mb-4">
               <strong>Objective:</strong> Build industry-level projects, work on real-world AI applications, and develop innovation skills.
             </p>
