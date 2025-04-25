@@ -27,6 +27,11 @@ const postData: DataType[] = [
         name: 'Pokhraj Dey',
         imgSrc: '/assets/mentor/user.png',
     },
+    {
+        profession: 'IOT & Arduino Expert (BCA from Brainware University)',
+        name: 'Dhruba Mondal',
+        imgSrc: '/assets/mentor/mentor4.webp',
+    },
 ]
 
 // CAROUSEL SETTINGS
@@ -36,9 +41,21 @@ function SampleNextArrow(props: { className: any; style: any; onClick: any; }) {
     return (
         <div
             className={className}
-            style={{ ...style, display: "flex", justifyContent: "center", position: 'absolute', alignItems: "center" , background: "#D5EFFA", padding: "28px", borderRadius: "30px", border: "1px solid #1A21BC" }}
+            style={{ ...style, 
+                display: "flex", 
+                justifyContent: "center", 
+                // position: 'absolute', 
+                alignItems: "center" , 
+                background: "#6556ff", 
+                padding: "28px", 
+                borderRadius: "30px", 
+                border: "1px solid #1A21BC",
+                color: "black",
+             }}
             onClick={onClick}
-        />
+        >
+            NextBtn
+        </div>
     );
 }
 
@@ -47,9 +64,9 @@ function SamplePrevArrow(props: { className: any; style: any; onClick: any; }) {
     return (
         <div
             className={className}
-            style={{ ...style, display: "flex", justifyContent: "center", alignItems: "center" , background: "#D5EFFA", padding: "28px", borderRadius: "30px", border: "1px solid #1A21BC" }}
+            style={{ ...style, background: "#6556ff", display: "flex", justifyContent: "center", alignItems: "center" , padding: "28px", borderRadius: "30px", border: "1px solid #1A21BC" }}
             onClick={onClick}
-        />
+        >PrevBtn</div>
     );
 }
 
@@ -64,9 +81,9 @@ export default class MultipleItems extends Component {
             slidesToShow: 3,
             // centerMode: true,
             slidesToScroll: 1,
-            arrows: false,
+            //arrows: true,
             autoplay: false,
-            speed: 4000,
+            speed: 1000,
             nextArrow: <SampleNextArrow className={undefined} style={undefined} onClick={undefined} />,
             prevArrow: <SamplePrevArrow className={undefined} style={undefined} onClick={undefined} />,
             autoplaySpeed: 4500,
@@ -101,14 +118,11 @@ export default class MultipleItems extends Component {
                 }
             ]
         };
-
-
         return (
             <div className="py-10 sm:py-24 bg-paleblue" id="mentor">
 
                 <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 px-4 lg:px-8 relative'>
                     <h2 className="lh-82 text-midnightblue text-4xl md:text-55xl text-center md:text-start font-semibold">Meet with our <br /> mentor.</h2>
-
                     <Slider {...settings}>
                         {postData.map((items, i) => (
                             <div key={i}>

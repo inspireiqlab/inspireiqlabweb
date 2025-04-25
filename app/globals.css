@@ -119,6 +119,12 @@ hr {
     background: transparent;
 }
 
+@media (max-width: 800px){
+    .slick-arrow{
+        display: none !important;  
+    }    
+}
+
 @media (min-width: 800px) {
     .lh-82 {
         line-height: 82px !important;
@@ -132,6 +138,7 @@ hr {
 .w-270 {
     width: 270px;
 }
+
 
 @media (max-width: 450px) {
     .smallImage {
