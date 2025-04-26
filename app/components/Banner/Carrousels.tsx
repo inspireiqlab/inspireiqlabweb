@@ -29,7 +29,7 @@ const Carrousels = () => {
         <Image src="/assets/banner/banner2.jpeg" alt="nothing" className='rounded-lg object-cover' fill />
       </SwiperSlide>
       <SwiperSlide>
-        <Image src="/assets/banner/banner3.jpeg" alt="nothing" className='rounded-lg object-cover' fill />
+        <Image src="/assets/about-us/pexels-vanessa-loring-7868892.jpg" alt="nothing" className='rounded-lg object-cover' fill />
       </SwiperSlide>
       ...
     </Swiper>

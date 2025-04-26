@@ -18,7 +18,7 @@ const page = () => {
       <section className='grid mt-6 md:grid-cols-2 w-full border border-black rounded-3xl mb-12'>
         <div className='p-10'>
           <h1 className="text-4xl font-bold mb-4">Our Story</h1>
-          <p className="text-base text-gray-700 mb-4 text-justify">
+          <p className="text-base text-gray-700 mb-4">
           At InspireIQ Lab, we believe learning should be joyful, curious, and deeply meaningful. Our journey began with a simple idea — what if children could explore science, robotics, and future technologies not through textbooks, but through play? <br/><br/>
           Born from the vision of educators, engineers, and parents, InspireIQ Lab is not a course—it’s a living, breathing education ecosystem. A space where kids of all ages can experiment, build, and bring their ideas to life.<br/><br/>
           We are building labs where imagination meets innovation—and the spark of curiosity is just the beginning.
@@ -43,7 +43,7 @@ const page = () => {
         </div>
         <div className='p-10'>
           <h1 className="text-4xl font-bold mb-4">Education Philosophy</h1>
-          <p className="text-base text-gray-700 mb-4 text-justify">
+          <p className="text-base text-gray-700 mb-4">
             Children learn best when they do. At InspireIQ Lab, our learning philosophy centers around experience-first education—where play, discovery, and real-world building are the foundation.<br/><br/>
             We focus on hands-on engagement with tools of the future—like robotics kits, AI-driven challenges, and IoT devices—because the world children will step into is changing fast. Our role is not just to prepare them, but to help them shape that world.<br/><br/>
             We don’t teach to test. We guide to explore.
@@ -54,7 +54,7 @@ const page = () => {
       <section className='grid mt-6 md:grid-cols-2 w-full border border-black rounded-3xl'>
         <div className='p-10'>
           <h1 className="text-4xl font-bold mb-4">Built by Innovators</h1>
-          <p className="text-base text-gray-700 mb-4 text-justify">
+          <p className="text-base text-gray-700 mb-4">
           InspireIQ Lab is founded by thinkers and makers—engineers, educators, and passionate creators—who care deeply about shaping a more meaningful education experience for the next generation.<br/><br/>
           We’re parents too. We’ve seen the gaps in the traditional system, and we’ve designed InspireIQ Lab to go beyond it—to let children create, collaborate, and think like real-world problem solvers from a young age.
           </p>

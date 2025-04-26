@@ -17,7 +17,7 @@ const OurVisionPage = () => {
           <section className='grid mt-6 md:grid-cols-2 w-full border border-black rounded-3xl mb-12'>
             <div className='p-10'>
               <h1 className="text-4xl font-bold mb-4">The Big Picture</h1>
-              <p className="text-base text-gray-700 mb-4 text-justify">
+              <p className="text-base text-gray-700 mb-4">
               We envision a future where children don’t just consume technology—they build it.<br/><br/>
               A world where classrooms extend beyond walls, and learning is driven by curiosity, experimentation, and purposeful play.<br/><br/>
               At InspireIQ Lab, we’re creating a system that empowers kids to become confident explorers of science, AI, robotics, and innovation.<br/><br/>
@@ -43,7 +43,7 @@ const OurVisionPage = () => {
             </div>
             <div className='p-10'>
               <h1 className="text-4xl font-bold mb-4">Long-Term Impact</h1>
-              <p className="text-base text-gray-700 mb-4 text-justify">
+              <p className="text-base text-gray-700 mb-4">
               Our aim isn’t short-term learning—it’s long-term transformation.<br/><br/>
               We want kids to grow up with the mindset of creators, not just consumers. With the confidence to solve problems, the tools to build what they imagine, and the vision to see how they can improve the world around them.<br/><br/>
               This isn’t just about STEM. It’s about developing thinkers, doers, and dreamers.
@@ -54,7 +54,7 @@ const OurVisionPage = () => {
           <section className='grid mt-6 md:grid-cols-2 w-full border border-black rounded-3xl'>
             <div className='p-10'>
               <h1 className="text-4xl font-bold mb-4">Community & Culture Building</h1>
-              <p className="text-base text-gray-700 mb-4 text-justify">
+              <p className="text-base text-gray-700 mb-4">
               We’re more than a lab—we’re a movement.<br/><br/>
 A place where parents, educators, and kids come together to co-create a culture of learning that’s playful, inclusive, and future-facing.<br/>
 We believe in nurturing not only smart minds but kind hearts and resilient spirits.<br/><br/>

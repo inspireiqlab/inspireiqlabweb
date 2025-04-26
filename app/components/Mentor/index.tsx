@@ -32,6 +32,12 @@ const postData: DataType[] = [
         name: 'Dhruba Mondal',
         imgSrc: '/assets/mentor/mentor4.webp',
     },
+    {
+        profession: 'Web Designer (B.Tech from Brainware University)',
+        name: 'Jahir Ahamed',
+        imgSrc: '/assets/mentor/mentor5.webp',
+
+    },
 ]
 
 // CAROUSEL SETTINGS

@@ -20,7 +20,7 @@ export default function FAQSection() {
         "Your child will explore Science, Technology, Engineering, and Math (STEM), Robotics & Automation, Artificial Intelligence & Machine Learning, and Internet of Things (IoT), all taught through games, experiments, and project-based learning.",
     },
     {
-      question: "Do you offer online or offline classes?",
+      question: "Does InspireIQ Lab offer online or offline classes?",
       answer:
         "We currently focus on offline, hands-on learning experiences, hosted in our local learning spaces. This ensures kids get real, tactile exposure to tools, kits, and team-based collaboration.",
     },
