@@ -119,7 +119,7 @@ const Navbar = () => {
 
                         {/* CTA Button Enroll Now */}
                         <Link href="https://forms.gle/apgu9Az9R23LTRnf7" target='_blank' className="hidden lg:block text-center text-Blueviolet text-lg font-medium ml-9 py-5 px-16 transition duration-150 ease-in-out rounded-full bg-semiblueviolet hover:text-white hover:bg-Blueviolet">
-                            Pre-Enroll Now
+                            Register for Free Trial
                         </Link>
 
 

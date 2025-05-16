@@ -12,7 +12,7 @@ const ContactUsPage = () => {
           <li><strong>Phone/WhatsApp:</strong> <Link href="https://wa.me/919051155395">+91-9051155395</Link></li>
           <li><strong>Location:</strong> Konnagar, Hooghly, West Bengal - 712235</li>
           <li><strong>Launching:</strong> August 2025</li>
-          <li><strong>Feedback / Pre-enrollment:</strong> <a href="https://forms.gle/apgu9Az9R23LTRnf7" target='_blank' className="text-blue-600 underline">Fill the Form</a></li>
+          <li><strong>Register for a FREE Trial Session:</strong> <a href="https://forms.gle/apgu9Az9R23LTRnf7" target='_blank' className="text-blue-600 underline">Fill the Form</a></li>
         </ul>
 
     </section>

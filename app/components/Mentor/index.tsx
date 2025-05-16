@@ -13,27 +13,27 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        profession: 'Machine Learning Expert (PhD from IIT Dhanbad)',
+        profession: 'Machine Learning Expert (PhD, IIT Dhanbad)',
         name: 'Dr. Sourav Basak',
         imgSrc: '/assets/mentor/mentor2.webp',
     },
     {
-        profession: 'Machine Learning Engineer (ME from Jadavpur University)',
+        profession: 'Machine Learning Engineer (ME, Jadavpur University)',
         name: 'Somtirtha Mukhopadhyay',
         imgSrc: '/assets/mentor/mentor3.webp',
     },
     {
-        profession: 'Coding Instructor (Tata Medical IT Specialist)',
+        profession: 'Coding Instructor (IT Specialist)',
         name: 'Pokhraj Dey',
         imgSrc: '/assets/mentor/user.png',
     },
     {
-        profession: 'IOT & Arduino Expert (BCA from Brainware University)',
+        profession: 'IOT & Arduino Expert (BCA, Brainware University)',
         name: 'Dhruba Mondal',
         imgSrc: '/assets/mentor/mentor4.webp',
     },
     {
-        profession: 'Web Designer (B.Tech from Brainware University)',
+        profession: 'Web Designer (B.Tech, Brainware University)',
         name: 'Jahir Ahamed',
         imgSrc: '/assets/mentor/mentor5.webp',
 
