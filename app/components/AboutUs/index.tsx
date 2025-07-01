@@ -4,7 +4,7 @@ import DownMotion from "../MotionWrapper/DownMotion";
 const index = () => {
   return (
     <section id="about">
-      <div className='mx-auto max-w-7xl py-8 px-4 lg:px-8 '>
+      <div className='my-6 mx-auto max-w-7xl py-8 px-4 lg:px-8 '>
           <DownMotion>
           <div className="flex flex-col sm:flex mb-6">
               <h3 className="text-midnightblue text-4xl lg:text-55xl font-semibold mb-5">About InspireIQ Lab</h3>

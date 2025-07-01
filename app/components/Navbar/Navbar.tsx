@@ -24,6 +24,7 @@ const navigation: NavigationItem[] = [
     { name: 'About Us', href: '/about-us', current: false },
     { name: 'Programs', href: '/programs', current: false },
     // { name: 'Why InspireIQ', href: '/why-inspireiq', current: false },
+    // { name: 'ATL Lab', href: '/atl-lab', current: false },
     { name: 'Our Vision', href: '/our-vision', current: false },
     { name: 'Contact Us', href: '/contact-us', current: false },
 ];

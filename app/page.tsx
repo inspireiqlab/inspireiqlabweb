@@ -5,6 +5,7 @@ import Mentor from './components/Mentor';
 import DownMotion from './components/MotionWrapper/DownMotion';
 import FAQSection from './components/FAQ';
 import Link from 'next/link';
+import ATLLabSection from './components/ATLLab';
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Banner />
       {/* <Companies /> */}
       <AboutUs/>
+      <ATLLabSection/>
       <Mentor/>
       <CTA/>
       <FAQSection/>
