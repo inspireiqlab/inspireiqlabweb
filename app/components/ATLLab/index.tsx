@@ -49,7 +49,7 @@ const ATLLabSection = () => {
               <h4 className="text-3xl font-semibold text-midnightblue mb-4">Empowering the Next Generation</h4>
               <p className="text-gunmetalgray text-justify">
                 ATL Labs aim to inspire millions of young innovators across India by making <b>STEM education engaging, practical, and future-ready</b>. 
-                Schools under this mission become innovation hubs where curiosity meets execution. Whether it's a rural school or an urban institution, ATL brings a uniform opportunity to innovate.
+                Schools under this mission become innovation hubs where curiosity meets execution. Whether it&apos;s a rural school or an urban institution, ATL brings a uniform opportunity to innovate.
               </p>
             </div>
             <div className="rounded-lg overflow-hidden shadow-md">
