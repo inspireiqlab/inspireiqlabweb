@@ -52,9 +52,21 @@ const ATLLabSection = () => {
                 Schools under this mission become innovation hubs where curiosity meets execution. Whether it&apos;s a rural school or an urban institution, ATL brings a uniform opportunity to innovate.
               </p>
             </div>
-            <div className="rounded-lg overflow-hidden shadow-md">
+            {/* <div className="rounded-lg overflow-hidden shadow-md"> */}
               {/* <Image src="/assets/images/atl-lab.jpg" alt="ATL Lab" width={600} height={400} className="w-full h-auto object-cover"/> */}
-              <iframe width="600" height="360" src="https://www.youtube.com/embed/6DUUyzNDiak?si=XZyha_bJOgyAC4V9" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+              {/* <iframe width="600" height="360" src="https://www.youtube.com/embed/6DUUyzNDiak?si=XZyha_bJOgyAC4V9" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div> */}
+
+            <div className="relative w-full pt-[56.25%] rounded-lg overflow-hidden shadow-md">
+              <iframe 
+                className="absolute top-0 left-0 w-full h-full" 
+                src="https://www.youtube.com/embed/6DUUyzNDiak?si=XZyha_bJOgyAC4V9" 
+                title="YouTube video player" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerPolicy="strict-origin-when-cross-origin" 
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </DownMotion>

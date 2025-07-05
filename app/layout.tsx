@@ -2,6 +2,7 @@ import './globals.css';
 import Navbar from './components/Navbar/index';
 import Footer from './components/Footer/Footer';
 import type { Viewport } from 'next';
+import StickyNotice from './components/StickyNotice';
  
 export const viewport: Viewport = {
   width: 'device-width',
@@ -26,6 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <StickyNotice/>
         <Navbar />
         {children}
         <Footer />
