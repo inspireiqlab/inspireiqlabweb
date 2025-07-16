@@ -36,8 +36,7 @@ const Banner = () => {
                         </Link>
                         </div>
                         <div className='flex justify-center gap-2 mx-auto lg:mx-0'>
-                            {/* <h3 className='text-slategray text-sm font-semibold text-center lg:text-start'>🚀 Lab Opening in August 2025</h3> */}
-                            <h3 className='gradient-animation bg-gradient-to-r from-red to-[#ff9318] py-1 px-2 rounded-md text-white text-sm font-semibold text-center lg:text-start'>🚀 Lab Opening in August 2025</h3>
+                            <h3 className='gradient-animation bg-gradient-to-r from-red to-[#ff9318] py-1 px-2 rounded-md text-white text-sm font-semibold text-center lg:text-start'>🚀 Lab Opening in Janurary 2026</h3>
                         </div>
 
                         <div className='flex items-center justify-between pt-10 lg:pt-4'>
