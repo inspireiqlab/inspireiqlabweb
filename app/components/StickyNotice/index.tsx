@@ -11,7 +11,7 @@ export default function StickyNotice() {
     <div className="sticky bottom-0 z-50 bg-black text-white px-4 py-3 flex items-center justify-between shadow-md">
       <div className="flex flex-col flex-grow justify-center sm:flex-row sm:items-center gap-2">
         <p className="font-medium text-justify">
-          🎓 Join our Free Career Guide Session on Cyber Security and Ethical hacking for school students – <span className="underline">27th July, 11:30 AM</span>
+          🎓 Join our Free Career Guide Session on Cyber Security and Ethical hacking for school students – <span className="underline">3rd August, 03:00 PM</span>
         </p>
         <Link
           href="https://docs.google.com/forms/d/e/1FAIpQLSd3qw4YuDCj46fxdaJRx6cEE4CuV0geeq_7IPvMDgep_mBXQg/viewform"
