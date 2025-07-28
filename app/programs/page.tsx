@@ -17,12 +17,13 @@ const ProgramsPage = () => {
               <strong>Tools:</strong> LEGO Duplo, Bee-Bot, Cubetto, Scratch Jr., Tangible Coding Blocks
             </p>
             <p className="text-gray-700 mb-2"><strong>Topics & Activities:</strong></p>
-            <ul className="list-disc pl-5 text-gray-600">
+            <ul className="list-disc pl-5 text-gray-600 mb-4">
               <li>STEM Foundations: Exploring shapes, colors, numbers; simple physics experiments; building basic structures with LEGO.</li>
               <li>Introduction to Robotics: Understanding how robots work; controlling simple robots; hands-on activities with robotic toys.</li>
               <li>Basic Coding Concepts: Drag-and-drop coding; storytelling with coding; fun unplugged coding activities.</li>
               <li>AI Awareness: Talking about smart devices; simple pattern recognition games; AI-based storytelling with interactive books.</li>
             </ul>
+            <a className="my-2 underline" href="https://wa.me/919051155395" target="_blank">Want to know more? Contact Us at 9051155395</a>
           </div>
           <div>
             <Image className="w-full" src="/assets/programs/programs3-6.webp" alt="Kids playing with legos" objectFit="cover" width={500} height={0}/>
