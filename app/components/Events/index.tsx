@@ -57,7 +57,7 @@ const index = () => {
                   <ul className="space-y-3 text-gray-600">
                     <li className="flex items-start">
                       <span className="text-yellow-500 font-bold mr-2 text-xl">&bull;</span>
-                      <span>Students from classNamees 6 to 12</span>
+                      <span>Students from classes 6 to 12</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-yellow-500 font-bold mr-2 text-xl">&bull;</span>
