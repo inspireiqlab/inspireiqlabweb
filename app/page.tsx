@@ -6,6 +6,7 @@ import DownMotion from './components/MotionWrapper/DownMotion';
 import FAQSection from './components/FAQ';
 import Link from 'next/link';
 import ATLLabSection from './components/ATLLab';
+import Events from './components/Events';
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Banner />
       {/* <Companies /> */}
       <AboutUs/>
+      <Events/>
       <ATLLabSection/>
       <Mentor/>
       <CTA/>

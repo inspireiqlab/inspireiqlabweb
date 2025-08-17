@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 const notice = {
-  label: "🎓 Join our Free Online Session on Artificial Intelligence and Our Future",
+  label: "🎓 Join our Free Online Session on Artificial Intelligence and Your Future",
   date: "25th August, 11:00 AM",
   link: "https://forms.gle/VXQ66rw9E83rLDA96"
 };
