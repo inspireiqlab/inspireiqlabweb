@@ -7,9 +7,9 @@ import Drawerdata from "./Drawerdata";
 import Image from 'next/image';
 
 interface NavigationItem {
-    name: string;
-    href: string;
-    current: boolean;
+  name: string;
+  href: string;
+  current: boolean;
 }
 
 // - Home
@@ -20,130 +20,134 @@ interface NavigationItem {
 // - Contact Us
 
 const navigation: NavigationItem[] = [
-    { name: 'Home', href: '/', current: true },
-    { name: 'About Us', href: '/about-us', current: false },
-    { name: 'Programs', href: '/programs', current: false },
-    // { name: 'Why InspireIQ', href: '/why-inspireiq', current: false },
-    // { name: 'ATL Lab', href: '/atl-lab', current: false },
-    { name: 'Our Vision', href: '/our-vision', current: false },
-    { name: 'Contact Us', href: '/contact-us', current: false },
+  { name: 'Home', href: '/', current: true },
+  { name: 'About Us', href: '/about-us', current: false },
+  { name: 'Programs', href: '/programs', current: false },
+  // { name: 'Why InspireIQ', href: '/why-inspireiq', current: false },
+  // { name: 'ATL Lab', href: '/atl-lab', current: false },
+  { name: 'Gallery', href: '/gallery', current: false },
+  { name: 'Contact Us', href: '/contact-us', current: false },
 ];
 
 function classNames(...classes: string[]) {
-    return classes.filter(Boolean).join(' ');
+  return classes.filter(Boolean).join(' ');
 }
 
 const CustomLink = ({ href, onClick, children }: { href: string; onClick: () => void; children: React.ReactNode }) => {
-    return (
-        <Link href={href} passHref>
-            <span
-                onClick={onClick}
-                className="px-3 py-4 text-lg font-normal"
-            >
-                {children}
-            </span>
-        </Link>
-    );
+  return (
+    <Link href={href} passHref>
+      <span
+        onClick={onClick}
+        className="px-3 py-4 text-lg font-normal"
+      >
+        {children}
+      </span>
+    </Link>
+  );
 };
 
 
 const Navbar = () => {
-    const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = React.useState(false);
 
-    const [currentLink, setCurrentLink] = useState('/');
+  const [currentLink, setCurrentLink] = useState('/');
 
-    const handleLinkClick = (href: string) => {
-        setCurrentLink(href);
-    };
+  const handleLinkClick = (href: string) => {
+    setCurrentLink(href);
+  };
 
-    return (
-        <Disclosure as="nav" className="navbar">
-            <>
-                <div className="mx-auto max-w-7xl px-6 py-4 lg:px-8">
-                    <div className="relative flex h-12 md:h-20 items-center justify-between">
-                        <div className="flex flex-1 items-center sm:items-stretch sm:justify-start">
+  return (
+    <Disclosure as="nav" className="navbar">
+      <>
+        <div className="mx-auto max-w-7xl px-6 py-4 lg:px-8">
+          <div className="relative flex h-12 md:h-20 items-center justify-between">
+            <div className="flex flex-1 items-center sm:items-stretch sm:justify-start">
 
-                            {/* LOGO */}
+              {/* LOGO */}
 
-                            <div className="flex flex-shrink-0 items-center">
-                                <Image
-                                    id="hello"
-                                    className="block w-24 lg:hidden"
-                                    src={'/assets/logo/logo.png'}
-                                    alt="dsign-logo"
-                                    width={96}
-                                    height={0}
-                                />
-                                <Image
-                                    className="hidden w-24 lg:block"
-                                    src={'/assets/logo/logo.png'}
-                                    alt="dsign-logo"
-                                    width={96}
-                                    height={0}
-                                />
-                                <div className='ml-6 md:block md:ml-4'>
-                                    <Image
-                                        id="hello"
-                                        className="block w-32"
-                                        src={'/assets/logo/logo-text.png'}
-                                        alt="dsign-logo"
-                                        width={128}
-                                        height={0}
-                                    />
-                                </div>
-                            </div>
-
-                            {/* LINKS */}
-
-                            <div className="hidden lg:block m-auto">
-                                <div className="flex space-x-4">
-                                    {navigation.map((item) => (
-                                        <CustomLink
-                                            key={item.name}
-                                            href={item.href}
-                                            onClick={() => handleLinkClick(item.href)}
-                                        >
-                                            <span
-                                                className={classNames(
-                                                    item.href === currentLink ? 'underline-links' : 'text-slategray',
-                                                    'px-3 py-4 text-lg font-normal opacity-75 hover:opacity-100 flex text-center'
-                                                )}
-                                                aria-current={item.href ? 'page' : undefined}
-                                            >
-                                                {item.name}
-                                            </span>
-                                        </CustomLink>
-                                    ))}
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* CTA Button Enroll Now */}
-                        <Link href="https://forms.gle/apgu9Az9R23LTRnf7" target='_blank' className="hidden lg:block text-center text-Blueviolet text-lg font-medium ml-9 py-5 px-16 transition duration-150 ease-in-out rounded-full bg-semiblueviolet hover:text-white hover:bg-Blueviolet">
-                            Register for Free Trial
-                        </Link>
-
-
-                        {/* DRAWER FOR MOBILE VIEW */}
-
-                        {/* DRAWER ICON */}
-
-                        <div className='block lg:hidden'>
-                            <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
-                        </div>
-
-                        {/* DRAWER LINKS DATA */}
-
-                        <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
-                            <Drawerdata handleLinkClick={handleLinkClick} />
-                        </Drawer>
-
-
-                    </div>
+              <div className="flex flex-shrink-0 items-center">
+                <Image
+                  id="hello"
+                  className="block w-24 lg:hidden"
+                  src={'/assets/logo/logo.png'}
+                  alt="dsign-logo"
+                  width={96}
+                  height={0}
+                />
+                <Image
+                  className="hidden w-24 h-auto lg:block"
+                  src={'/assets/logo/logo.png'}
+                  alt="dsign-logo"
+                  width={96}
+                  height={0}
+                />
+                <div className='flex md:flex-col items-center gap-2 ml-6 md:ml-4'>
+                  <Image
+                    id="hello"
+                    className="block w-32"
+                    src={'/assets/logo/logo-text.png'}
+                    alt="dsign-logo"
+                    width={128}
+                    height={0}
+                  />
+                  <div className='flex flex-col text-xs font-semibold text-[#919191] leading-3 text-center'>
+                    <span>An educational initiative of</span>
+                    <span>SCIENCETECH SERVICES</span>
+                  </div>
                 </div>
-            </>
-        </Disclosure>
-    );
+              </div>
+
+              {/* LINKS */}
+
+              <div className="hidden lg:block m-auto">
+                <div className="flex space-x-4">
+                  {navigation.map((item) => (
+                    <CustomLink
+                      key={item.name}
+                      href={item.href}
+                      onClick={() => handleLinkClick(item.href)}
+                    >
+                      <span
+                        className={classNames(
+                          item.href === currentLink ? 'underline-links' : 'text-slategray',
+                          'px-3 py-4 text-lg font-normal opacity-75 hover:opacity-100 flex text-center'
+                        )}
+                        aria-current={item.href ? 'page' : undefined}
+                      >
+                        {item.name}
+                      </span>
+                    </CustomLink>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* CTA Button Enroll Now */}
+            <Link href="https://forms.gle/apgu9Az9R23LTRnf7" target='_blank' className="hidden lg:block text-center text-Blueviolet text-lg font-medium ml-9 py-5 px-16 transition duration-150 ease-in-out rounded-full bg-semiblueviolet hover:text-white hover:bg-Blueviolet">
+              Register for Free Trial
+            </Link>
+
+
+            {/* DRAWER FOR MOBILE VIEW */}
+
+            {/* DRAWER ICON */}
+
+            <div className='block lg:hidden'>
+              <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
+            </div>
+
+            {/* DRAWER LINKS DATA */}
+
+            <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
+              <Drawerdata handleLinkClick={handleLinkClick} />
+            </Drawer>
+
+
+          </div>
+        </div>
+      </>
+    </Disclosure>
+  );
 };
 
 export default Navbar;

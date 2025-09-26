@@ -30,7 +30,7 @@ const index = () => {
 
                   <div className="bg-indigo-50 border-l-4 border-indigo-500 text-indigo-700 p-4 rounded-lg flex items-center space-x-2 mb-6">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2m-2 4h4m-2 4h2m-2 4h2m-2-4v2m0 0a2 2 0 11-4 0m4 0a2 2 0 100-4m-4 0a2 2 0 11-4 0" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2m-2 4h4m-2 4h2m-2 4h2m-2-4v2m0 0a2 2 0 11-4 0m4 0a2 2 0 100-4m-4 0a2 2 0 11-4 0" />
                     </svg>
                     <p className="font-medium text-lg">Event for School Students (class 8 to 12)</p>
                   </div>

@@ -24,10 +24,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const noticeVisible = false;
   return (
     <html lang="en">
       <body>
-        <StickyNotice/>
+        {noticeVisible && <StickyNotice/>}
         <Navbar />
         {children}
         <Footer />
