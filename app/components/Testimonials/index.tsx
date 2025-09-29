@@ -27,22 +27,14 @@ const postData: DataType[] = [
         imgSrc: '/assets/mentor/user-f.png',
     },
     {
-        name: "Cody Fisher",
-        profession: 'Parents',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+        name: "Nitin Pradhan",
+        profession: 'Parent',
+        comment: "I'm so impressed with InspireIQ Lab. They have completely changed my son's perspective on learning—he now sees it as an adventure. The hands-on approach to STEM and robotics is exactly what he needed to spark his interest. The focus on critical thinking and collaboration over rote learning is a breath of fresh air. Highly recommended for any parent who wants to nurture their child's inner innovator.",
         imgSrc: '/assets/mentor/user.png',
     },
-    {
-        name: "Robert Fox",
-        profession: 'Head master',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-        imgSrc: '/assets/mentor/user.png',
-    }
 ]
 
 // CAROUSEL SETTINGS
-
-
 export default class MultipleItems extends Component {
 
     render() {

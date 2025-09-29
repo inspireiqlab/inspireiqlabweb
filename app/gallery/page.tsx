@@ -93,7 +93,6 @@ const photosData = [
     src: [
       // 'https://placehold.co/600x400/31475A/FFFFFF?text=Space+Exploration',
       '/assets/gallery/STEM_Age-8 to11/img1.jpg',
-      '/assets/gallery/STEM_Age-8 to11/img2.jpg',
       '/assets/gallery/STEM_Age-8 to11/img3.jpg',
     ],
     alt: 'Exploring Science with Magnets',
@@ -297,7 +296,7 @@ export default function GalleryPage() {
     <div className="md:mx-40 bg-gray-50 min-h-screen text-slate-800 font-sans">
       <div className="container mx-auto px-4 py-12 md:py-20">
         <header className="text-center mb-12">
-          <h1 className="text-4xl md:text-6xl font-extrabold mb-2 text-slate-900">
+          <h1 className="text-4xl md:text-5xl font-bold mb-2 text-slate-900">
             A Glimpse Into Our Lab
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">

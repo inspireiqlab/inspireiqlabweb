@@ -44,7 +44,7 @@ const Carrousels = () => {
         <Image src='/assets/gallery/3D-Pen-fun/img2.jpg' alt="Kids are building toy robots" className='rounded-lg object-cover' fill />
       </SwiperSlide>
       <SwiperSlide>
-        <Image src='/assets/gallery/STEM_Age-8 to11/img2.jpg' alt="Kids are building toy robots" className='rounded-lg object-cover' fill />
+        <Image src='/assets/gallery/STEM_Age-8 to11/img3.jpg' alt="Kids are building toy robots" className='rounded-lg object-cover' fill />
       </SwiperSlide>
       <SwiperSlide>
         <Image src='/assets/gallery/Coding-computer/img3.jpg' alt="Kids are building toy robots" className='rounded-lg object-cover' fill />

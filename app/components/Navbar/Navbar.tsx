@@ -92,7 +92,7 @@ const Navbar = () => {
                   />
                   <div className='flex flex-col text-xs font-semibold text-[#919191] leading-3 text-center'>
                     <span>An educational initiative of</span>
-                    <span>SCIENCETECH SERVICES</span>
+                    <span>SCIENCETECH SERVICES(GST Registered)</span>
                   </div>
                 </div>
               </div>
