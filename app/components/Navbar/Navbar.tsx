@@ -81,7 +81,7 @@ const Navbar = () => {
                   width={96}
                   height={0}
                 />
-                <div className='flex md:flex-col items-center gap-2 ml-6 md:ml-4'>
+                <div className='flex flex-col items-center gap-2 ml-6 md:ml-4'>
                   <Image
                     id="hello"
                     className="block w-32"
@@ -123,10 +123,9 @@ const Navbar = () => {
             </div>
 
             {/* CTA Button Enroll Now */}
-            <Link href="https://forms.gle/apgu9Az9R23LTRnf7" target='_blank' className="hidden lg:block text-center text-Blueviolet text-lg font-medium ml-9 py-5 px-16 transition duration-150 ease-in-out rounded-full bg-semiblueviolet hover:text-white hover:bg-Blueviolet">
-              Register for Free Trial
+            <Link href="./assets/InspireIQLab Brochure.pdf" target='_blank' className="hidden lg:block text-center text-Blueviolet text-lg font-medium py-5 px-16 transition duration-150 ease-in-out rounded-full bg-semiblueviolet hover:text-white hover:bg-Blueviolet">
+              Download Brochure
             </Link>
-
 
             {/* DRAWER FOR MOBILE VIEW */}
 

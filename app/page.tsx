@@ -7,6 +7,8 @@ import FAQSection from './components/FAQ';
 import Link from 'next/link';
 import ATLLabSection from './components/ATLLab';
 import Events from './components/Events';
+import OurVisionPage from './components/our-vision/page';
+import Testimonials from './components/Testimonials';
 
 
 export default function Home() {
@@ -15,9 +17,11 @@ export default function Home() {
       <Banner />
       {/* <Companies /> */}
       <AboutUs/>
-      <Events/>
+      {/* <Events/> */}
+      <OurVisionPage/>
       <ATLLabSection/>
       <Mentor/>
+      <Testimonials/>
       <CTA/>
       <FAQSection/>
       <div className='flex items-center justify-center'>

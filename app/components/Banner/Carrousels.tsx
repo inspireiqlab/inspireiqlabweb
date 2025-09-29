@@ -22,7 +22,7 @@ const Carrousels = () => {
       }}
       pagination = {{ clickable: true }}
     >
-      <SwiperSlide>
+      {/* <SwiperSlide>
         <Image src="/assets/banner/banner1.jpeg" alt="nothing" className='rounded-lg object-cover' fill />
       </SwiperSlide>
       <SwiperSlide>
@@ -33,6 +33,21 @@ const Carrousels = () => {
       </SwiperSlide>
       <SwiperSlide>
         <Image src="/assets/banner/banner4.webp" alt="Image by freepik" className='rounded-lg object-cover' fill />
+      </SwiperSlide> */}
+      <SwiperSlide>
+        <Image src='/assets/gallery/Robotics_Age-7 to 11/img4.webp' alt="Kids are building toy robots" className='rounded-lg object-cover' fill />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image src='/assets/gallery/group/IMG_20250831_171627.jpg' alt="Kids are building toy robots" className='rounded-lg object-cover' fill />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image src='/assets/gallery/3D-Pen-fun/img2.jpg' alt="Kids are building toy robots" className='rounded-lg object-cover' fill />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image src='/assets/gallery/STEM_Age-8 to11/img2.jpg' alt="Kids are building toy robots" className='rounded-lg object-cover' fill />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image src='/assets/gallery/Coding-computer/img3.jpg' alt="Kids are building toy robots" className='rounded-lg object-cover' fill />
       </SwiperSlide>
       ...
     </Swiper>
