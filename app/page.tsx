@@ -17,7 +17,7 @@ export default function Home() {
       <Banner />
       {/* <Companies /> */}
       <AboutUs/>
-      {/* <Events/> */}
+      <Events/>
       <OurVisionPage/>
       <ATLLabSection/>
       <Mentor/>
